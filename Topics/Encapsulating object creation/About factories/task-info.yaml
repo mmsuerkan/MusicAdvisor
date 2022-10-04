@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: A factory can be used by multiple clients.
+- text: There is only a single type of factories named <b>simple factory</b>.
+- text: A class that represents a factory must have several fields and one or zero
+    methods.
+- text: Factories protect the client code from changes.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3322#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 03 Oct 2022 14:32:12 UTC
+record: -1
+selected_options:
+- 0
+- 3
+local_check: false

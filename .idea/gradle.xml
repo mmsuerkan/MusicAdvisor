@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -18,6 +19,18 @@
             <option value="$PROJECT_DIR$/Music Advisor/task/build/test-results" />
             <option value="$PROJECT_DIR$/Music Advisor/task/build/tmp" />
             <option value="$PROJECT_DIR$/Music Advisor/task/out" />
+            <option value="$PROJECT_DIR$/Topics/Encapsulating object creation/About factories" />
+            <option value="$PROJECT_DIR$/Topics/Encapsulating object creation/Clock factory" />
+            <option value="$PROJECT_DIR$/Topics/Encapsulating object creation/Factories" />
+            <option value="$PROJECT_DIR$/Topics/Encapsulating object creation/How we use factories" />
+            <option value="$PROJECT_DIR$/Topics/Encapsulating object creation/Select statements" />
+            <option value="$PROJECT_DIR$/Topics/Encapsulating object creation/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Strategy/Benefits" />
+            <option value="$PROJECT_DIR$/Topics/Strategy/Concrete strategies" />
+            <option value="$PROJECT_DIR$/Topics/Strategy/Max and Min" />
+            <option value="$PROJECT_DIR$/Topics/Strategy/Select one statement" />
+            <option value="$PROJECT_DIR$/Topics/Strategy/Statements" />
+            <option value="$PROJECT_DIR$/Topics/Strategy/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

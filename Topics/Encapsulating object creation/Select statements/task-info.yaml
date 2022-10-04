@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: A factory cannot be used by multiple clients.
+- text: It is possible to create several simple factories for the same class hierarchy.
+- text: <b>Simple factory</b> and <b>abstract factory</b> are different names of the
+    same design pattern.
+- text: A factory encapsulates a logic for creating objects.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3321#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 03 Oct 2022 14:33:08 UTC
+record: -1
+selected_options:
+- 1
+- 3
+local_check: false

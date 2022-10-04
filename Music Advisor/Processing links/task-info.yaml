@@ -1233,45 +1233,12 @@ files:
 
     }
   learner_created: true
-- name: src/advisor/Album.java
-  visible: true
-  learner_created: true
-- name: src/advisor/Category.java
-  visible: true
-  learner_created: true
 - name: src/advisor/MusicApi.java
   visible: true
   learner_created: true
-- name: src/advisor/Playlist.java
-  visible: true
-  learner_created: true
-feedback_link: https://hyperskill.org/projects/62/stages/338/implement#comment
-status: Failed
+feedback_link: https://hyperskill.org/learn/step/5480#comment
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #8
-
-    There are no playlists in correct format on &quot;playlists {name}&quot; action. Make sure you correctly parsed the category name.
-
-    Please find below the output of your program during this failed test.
-    Note that the &#39;&gt;&#39; character indicates the beginning of the input line.
-
-    ---
-
-    Arguments: -access http://127.0.0.1:45678 -resource http://127.0.0.1:56789
-
-    &gt; auth
-    use this link to request the access code:
-    http://127.0.0.1:45678/authorize?client_id=0d64730c85344a6d8b370dbfbb46ca04&amp;response_type=code&amp;redirect_uri=http://localhost:8080
-    waiting for code...
-    Tester: making requests to redirect uri: http://localhost:8080
-    Tester: done request 1: Authorization code not found. Try again.
-    Tester: done request 2: Authorization code not found. Try again.
-    code received
-    Tester: done request 3: Got the code. Return back to your program.
-    making http request for access_token...
-    Success!
-    &gt; playlists Party Time
-    Unknown category name.
-  time: Sun, 02 Oct 2022 18:44:08 UTC
-record: -1
+  message: Congratulations!
+  time: Mon, 03 Oct 2022 13:35:34 UTC
+record: 4

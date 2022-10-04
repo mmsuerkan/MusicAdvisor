@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">6.683s</div>
+<div class="counter">11.034s</div>
 <p>duration</p>
 </div>
 </td>
@@ -76,30 +76,35 @@
 <a name="start"></a>
 <h3 class="failures">start</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong answer in test #8
+<pre>java.lang.AssertionError: Wrong answer in test #2
 
-There are no playlists in correct format on &quot;playlists {name}&quot; action. Make sure you correctly parsed the category name.
+Something wrong with pagination format. Not found ---PAGE 1 OF 3---
 
 Please find below the output of your program during this failed test.
 Note that the '&gt;' character indicates the beginning of the input line.
 
 ---
 
-Arguments: -access http://127.0.0.1:45678 -resource http://127.0.0.1:56789
+Arguments: -access http://127.0.0.1:45678 -resource http://127.0.0.1:56789 -page 1
 
 &gt; auth
 use this link to request the access code:
-http://127.0.0.1:45678/authorize?client_id=0d64730c85344a6d8b370dbfbb46ca04&amp;response_type=code&amp;redirect_uri=http://localhost:8080
+http://127.0.0.1:45678/authorize?client_id=0d64730c85344a6d8b370dbfbb46ca04&amp;response_type=code&amp;redirect_uri=http://localhost:8080/
 waiting for code...
-Tester: making requests to redirect uri: http://localhost:8080
+Tester: making requests to redirect uri: http://localhost:8080/
 Tester: done request 1: Authorization code not found. Try again.
 Tester: done request 2: Authorization code not found. Try again.
 code received
+123123
 Tester: done request 3: Got the code. Return back to your program.
+code received
 making http request for access_token...
-Success!
-&gt; playlists Party Time
-Unknown category name.
+response:
+{&quot;access_token&quot;:&quot;456456&quot;,&quot;token_type&quot;:&quot;Bearer&quot;,&quot;expires_in&quot;:3600,&quot;refresh_token&quot;:&quot;567567&quot;,&quot;scope&quot;:&quot;&quot;}
+---SUCCESS---
+&gt; categories
+Top Lists
+---PAGE 1 OF 0---
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:155)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -159,7 +164,7 @@ Unknown category name.
 </thead>
 <tr>
 <td class="failures">start</td>
-<td class="failures">6.683s</td>
+<td class="failures">11.034s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -171,113 +176,41 @@ Unknown category name.
 Start test 1?[0m
 &gt; auth
 use this link to request the access code:
-http://127.0.0.1:45678/authorize?client_id=0d64730c85344a6d8b370dbfbb46ca04&amp;response_type=code&amp;redirect_uri=http://localhost:8080
+http://127.0.0.1:45678/authorize?client_id=0d64730c85344a6d8b370dbfbb46ca04&amp;response_type=code&amp;redirect_uri=http://localhost:8080/
 waiting for code...
-Tester: making requests to redirect uri: http://localhost:8080
+Tester: making requests to redirect uri: http://localhost:8080/
 Tester: done request 1: Authorization code not found. Try again.
 Tester: done request 2: Authorization code not found. Try again.
 code received
+123123
 Tester: done request 3: Got the code. Return back to your program.
+code received
 making http request for access_token...
-Success!
+response:
+{&quot;access_token&quot;:&quot;456456&quot;,&quot;token_type&quot;:&quot;Bearer&quot;,&quot;expires_in&quot;:3600,&quot;refresh_token&quot;:&quot;567567&quot;,&quot;scope&quot;:&quot;&quot;}
+---SUCCESS---
 &gt; exit
 ---GOODBYE!---
 ?[1;31m
 Start test 2?[0m
 &gt; auth
 use this link to request the access code:
-http://127.0.0.1:45678/authorize?client_id=0d64730c85344a6d8b370dbfbb46ca04&amp;response_type=code&amp;redirect_uri=http://localhost:8080
+http://127.0.0.1:45678/authorize?client_id=0d64730c85344a6d8b370dbfbb46ca04&amp;response_type=code&amp;redirect_uri=http://localhost:8080/
 waiting for code...
-Tester: making requests to redirect uri: http://localhost:8080
+Tester: making requests to redirect uri: http://localhost:8080/
 Tester: done request 1: Authorization code not found. Try again.
 Tester: done request 2: Authorization code not found. Try again.
 code received
+123123
 Tester: done request 3: Got the code. Return back to your program.
+code received
 making http request for access_token...
-Success!
+response:
+{&quot;access_token&quot;:&quot;456456&quot;,&quot;token_type&quot;:&quot;Bearer&quot;,&quot;expires_in&quot;:3600,&quot;refresh_token&quot;:&quot;567567&quot;,&quot;scope&quot;:&quot;&quot;}
+---SUCCESS---
 &gt; categories
 Top Lists
-Super Mood
-Party Time
-&gt; exit
----GOODBYE!---
-?[1;31m
-Start test 3?[0m
-&gt; categories
-Please, provide access for application.
-&gt; exit
----GOODBYE!---
-?[1;31m
-Start test 4?[0m
-&gt; auth
-use this link to request the access code:
-http://127.0.0.1:45678/authorize?client_id=0d64730c85344a6d8b370dbfbb46ca04&amp;response_type=code&amp;redirect_uri=http://localhost:8080
-waiting for code...
-Tester: making requests to redirect uri: http://localhost:8080
-Tester: done request 1: Authorization code not found. Try again.
-Tester: done request 2: Authorization code not found. Try again.
-code received
-Tester: done request 3: Got the code. Return back to your program.
-making http request for access_token...
-Success!
-&gt; featured
-Monday Morning Mood
-http://open.spotify.com/user/spotify/playlist/6ftJBzU2LLQcaKefMi7ee7
-
-Upp och hoppa!
-http://open.spotify.com/user/spotify__sverige/playlist/4uOEx4OUrkoGNZoIlWMUbO
-
-&gt; exit
----GOODBYE!---
-?[1;31m
-Start test 5?[0m
-&gt; featured
-Please, provide access for application.
-&gt; exit
----GOODBYE!---
-?[1;31m
-Start test 6?[0m
-&gt; auth
-use this link to request the access code:
-http://127.0.0.1:45678/authorize?client_id=0d64730c85344a6d8b370dbfbb46ca04&amp;response_type=code&amp;redirect_uri=http://localhost:8080
-waiting for code...
-Tester: making requests to redirect uri: http://localhost:8080
-Tester: done request 1: Authorization code not found. Try again.
-Tester: done request 2: Authorization code not found. Try again.
-code received
-Tester: done request 3: Got the code. Return back to your program.
-making http request for access_token...
-Success!
-&gt; new
-Runnin'
-[Pharrell Williams]
-https://open.spotify.com/album/5ZX4m5aVSmWQ5iHAPQpT71
-Sneakin'
-[Drake2, Drake3]
-https://open.spotify.com/album/0geTzdk2InlqIoB16fW9Nd
-&gt; exit
----GOODBYE!---
-?[1;31m
-Start test 7?[0m
-&gt; new
-Please, provide access for application.
-&gt; exit
----GOODBYE!---
-?[1;31m
-Start test 8?[0m
-&gt; auth
-use this link to request the access code:
-http://127.0.0.1:45678/authorize?client_id=0d64730c85344a6d8b370dbfbb46ca04&amp;response_type=code&amp;redirect_uri=http://localhost:8080
-waiting for code...
-Tester: making requests to redirect uri: http://localhost:8080
-Tester: done request 1: Authorization code not found. Try again.
-Tester: done request 2: Authorization code not found. Try again.
-code received
-Tester: done request 3: Got the code. Return back to your program.
-making http request for access_token...
-Success!
-&gt; playlists Party Time
-Unknown category name.
+---PAGE 1 OF 0---
 </pre>
 </span>
 </div>
@@ -289,7 +222,7 @@ Unknown category name.
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.3.3</a> at Oct 2, 2022, 9:44:08 PM</p>
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at Oct 4, 2022, 6:22:29 PM</p>
 </div>
 </div>
 </body>

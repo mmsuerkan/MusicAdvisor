@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: It reduces the number of classes in a program.
+- text: ' It isolates the code of algorithms from the client code.'
+- text: It enables to choose an algorithm at run-time.
+- text: It improves the performance of a program.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3780#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 03 Oct 2022 16:21:17 UTC
+record: -1
+selected_options:
+- 1
+- 2
+local_check: false
